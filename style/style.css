@@ -16,7 +16,7 @@ header{
     background-size: cover;
 }
 .secondary-bg{
-    background-color: #F5F8FF;
+    background-color: #f6f9fe;
 }
 
 /* nav start */
@@ -42,18 +42,18 @@ nav{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    border: none;   
+    border: 1px solid transparent;   
 }
 .btn-primary:hover{
     background-color: white;
     color: #4E47FF;
-    border: 1px solid #4E47FF;
+    border-color: #4E47FF;
 }
 /* banner start */
 .banner{
     max-width: 650px;
     text-align: center;
-    margin: 150px auto;
+    margin: 0px auto;
     padding-bottom: 200px;
 }
 .banner-text{
@@ -64,4 +64,31 @@ nav{
 
 .btn-margin{
     margin-top: 30px;
+}
+
+/* action start */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 150px 0;
+    gap: 100px;
+}
+
+.action-image{
+    border-radius: 50px;
+}
+.section-header{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.action-text{
+    max-width: 350px;
+}
+.section-text{
+    color: #6f6f70;
+    font-size: 18px;
 }
